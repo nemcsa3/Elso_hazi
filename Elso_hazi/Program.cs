@@ -10,9 +10,13 @@ namespace Elso_hazi
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Adjon meg 10 számot!");
+            Console.WriteLine("Adja meg, hány számot szeretne beírni!");
+            int db = Convert.ToInt32(Console.ReadLine());
+            
+
+            Console.WriteLine("Adja meg a számokat!");
             List<int> szamokLista = new List<int>();  
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < db; i++)
             {
                 szamokLista.Add(Convert.ToInt32(Console.ReadLine()));
             }
