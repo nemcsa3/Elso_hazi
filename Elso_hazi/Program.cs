@@ -22,7 +22,8 @@ namespace Elso_hazi
             }
 
             int max = szamokLista.Max();
-            Console.WriteLine("A legnagyobb szám: {0}", max);
+            int min = szamokLista.Min();
+            Console.WriteLine("A legnagyobb szám: {0}\nA legkisebb szám: {1}", max, min);
 
 
             Console.ReadKey();
